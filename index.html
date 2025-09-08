@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DINGAMADJI Aristide - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h2>DINGAMADJI ARISTIDE</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- parti de mon acceuil -->
+  <section id="accueil" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Je suis <span class="highlight">ARISTIDE</span>,tutilaire d'un master en Eletronique Electrotechnique, passionné par le developpement web </h1>
+        <a href="#projets" class="btn">Voir mes projets</a>
+      </div>
+      <div class="hero-image">
+        <img src="devphoto.JPG" alt="Développeur illustration">
+      </div>
+    </div>
+  </section>
+
+  <!-- partie de mon a propos -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">À propos</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Je m'appelle <strong>ARISTIDE DINGAMADJI</strong>,je suis passionné par la création de sites web modernes et interactifs.</p>
+          <p>Je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+          <p>Grace au projet <strong>DCLIC de l'OrganisationInternationale la Francophonie</strong> , une occasion idéal de  transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+          <a href="cv.pdf" download class="btn">Télécharger mon CV</a>
+        </div>
+        <div class="about-image">
+          <img src="photo.JPG" alt="Photo développeur WEB ARISTIDE">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- structuration de mes Projets -->
+  <section id="projets" class="projects">
+    <div class="container">
+      <h2 class="section-title">Mes Projets</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Jeu interactif JavaScript</h3>
+          <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+          <div class="project-tags">
+            <span>#html</span><span>#css</span><span>#js</span>
+          </div>
+          <a href="#" class="btn">Voir</a>
+        </div>
+        <div class="project-card">
+          <h3>Application web</h3>
+          <p>Une petite application web avec HTML, CSS et JavaScript.</p>
+          <div class="project-tags">
+            <span>#html</span><span>#css</span><span>#js</span>
+          </div>
+          <a href="#" class="btn">Voir</a>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio responsive</h3>
+          <p>Un site web responsive réalisé uniquement en HTML et CSS.</p>
+          <div class="project-tags">
+            <span>#html</span><span>#css</span>
+          </div>
+          <a href="#" class="btn">Voir</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Compétences -->
+<section id="competences" class="skills">
+    <div class="container">
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Compétences techniques</h3>
+                <div class="skill-item">
+                    <span class="skill-name">MATLAB</span>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Fortran</span>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">HTML/CSS</span>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-level="65"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-level="30"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Autres compétences</h3>
+                <div class="skill-item">
+                    <span class="skill-name">Maintenance électronique</span>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-level="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Installation de systèmes</span>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Gestion de parc informatique</span>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-level="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Vous avez un projet en tête ?</h2>
+      <p>N’hésitez pas à <span>me contacter</span></p>
+      <form id="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Votre email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" placeholder="Votre message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 DINGAMADJI Aristide. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
